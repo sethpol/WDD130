@@ -8,11 +8,18 @@
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 /* center certain elements*/
-#hero-msg h1, #hero-msg h4 {
+#hero h1, #hero h4 {
     text-align: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .button-box {
@@ -43,6 +50,13 @@ body {
 
 header {
     background-color: #62b6cb;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
