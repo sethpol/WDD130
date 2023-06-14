@@ -281,3 +281,23 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* This is the end of the CSS for the main page */
+
+.sub-2-content h1 {
+    text-align: center;
+}
+
+.sub-2-content .questions {
+    text-indent: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-2-content p {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
