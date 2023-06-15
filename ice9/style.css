@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .headerimage{
@@ -16,15 +17,21 @@ body {
 
 h4 {
     text-align: center;
+    color: #3c5785;
+    font-size: .9em;
+    margin-bottom: 0;
 }
 
 .heading {
     text-align: center;
 }
 
+
 .awesomearticle {
-    padding: 10%;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
+    padding-bottom: 10%;
 }
 
 .small-text {
@@ -35,16 +42,48 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #3c5785;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .grid-1 {
     grid-column: 1/2;
+    text-align: center;
+    color: white;
+}
+
+.grid-1 .number {
+    margin-bottom: 0;
+}
+
+.grid-1 .small-text {
+    margin-top: 0;
 }
 
 .grid-2 {
     grid-column: 2/3;
+    text-align: center;
+    color: white;
+}
+
+.grid-2 .number {
+    margin-bottom: 0;
+}
+
+.grid-2 .small-text {
+    margin-top: 0;
 }
 
 .grid-3 {
     grid-column: 3/4;
+    text-align: center;
+    color: white;
+}
+
+.grid-3 .number {
+    margin-bottom: 0;
+}
+
+.grid-3 .small-text {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
